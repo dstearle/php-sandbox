@@ -37,29 +37,30 @@
             - You can use double quotes "" for faster concatenation of strings (see $greeting2)
     */
 
-    $num1 = 4;
-    $num2 = 10;
-    $sum = $num1 + $num2; // Put $sum into echo to retrieve the sum of both numbers (14)
-    
-    $string1 = 'Hello';
-    $string2 = 'World';
-    $greeting = $num1 . ' ' . $num2 . '!'; // Put $greeting into echo to retrieve the string of "Hellow World!"
-    $greeting2 = "$string1 $string2"; // Put $greeting into echo to retrieve the string of "Hellow World!"
+        $num1 = 4;
+        $num2 = 10;
+        $sum = $num1 + $num2; // Put $sum into echo to retrieve the sum of both numbers (14)
+        
+        $string1 = 'Hello';
+        $string2 = 'World';
+        $greeting = $num1 . ' ' . $num2 . '!'; // Put $greeting into echo to retrieve the string of "Hellow World!"
+        $greeting2 = "$string1 $string2"; // Put $greeting into echo to retrieve the string of "Hellow World!"
 
     ## Escape Sequences ##
 
-    $string3 = 'They\'re here';
-    $string4 = "They\"re here";
+        $string3 = 'They\'re here';
+        $string4 = "They\"re here";
 
     ## Constants ##
 
-    define('GREETING', 'Hello Everyone');
-    // echo GREETING;
-    define('GREETING', 'Hello Everyone', true);
-    // echo greeting;
+        define('GREETING', 'Hello Everyone');
+        // echo GREETING;
+        define('GREETING', 'Hello Everyone', true);
+        // echo greeting;
 
     ## Basic Greeting ##
-    $output = "Hello World!";
-    echo $output;
+
+        $output = "Hello World!";
+        echo $output;
 
 ?>
