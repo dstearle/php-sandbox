@@ -10,7 +10,7 @@
 
 **What Is This Project? :**
 
-- After a year of not working with PHP I thought it would be a good time to brush up on the basics with a simple PHP tutorial.
+- Never hurts to practice the basics so I took another course on PHP.
 - For every lesson I complete I make a new commit to the repo for easy reference.
 - If you would like to take the tutorial yourself I left the link up above! (Credit to Traversy Media)
 
