@@ -18,6 +18,9 @@
             <!-- Home -->
             <a class="nav-item nav-link " href="<?php echo ROOT_URL; ?>">Home</a>
 
+            <!-- Add Post -->
+            <a class="nav-item nav-link " href="<?php echo ROOT_URL; ?>addpost.php">Add Post</a>
+
         </div>
 
     </div>
